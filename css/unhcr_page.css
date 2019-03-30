@@ -118,10 +118,11 @@
 @page :first {
 
   margin: 25mm 0 0 0;
-  @top-left{
-	content:url('unhcr-visibility-horizontal.svg'), url ('headerline.svg');
-	    white-space: nowrap !important;
-}
+ @top-left {
+  background-image: url('unhcr-visibility-horizontal.svg'), url('headerline.svg') ;
+
+  }
+
 
   background-color: #ffffff;
 
